@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "viewport" content="width-device-width, initial-scale=1.0">
+    <title>Pastelería Amelieland-Pedido</title>
+    <img src="file:///C:/Users/BMXDOI006917/Desktop/CARO/Innovacci%C3%B3n/FrontEnd/HTML/Amelieland%20pasteler%C3%ADa%20head.webp" alt="logo Amelieland" width="600px"> 
+</head>  
+<body>
+    <h2>Realizar pedido</h2>
+    <h3>Por favor ingresa los siguientes datos</h3>
+    
+    <form action="pedido.js">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre y apellido"><br>
+
+        <label for="Teléfono">Teléfono</label>
+        <input type="tel" id="Teléfono" name="Teléfono" placeholder="Teléfono de contacto" maxlength="10"><br>
+
+        <label for="Correo electrónico">Correo electrónico</label>
+        <input type="email" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico"><br>
+
+        <label for="Fecha de entrega">Selecciona la fecha de entrega</label>
+        <input type="date" id="Fecha de entrega" name="Fecha de entrega">
+        <br>
+        <br>
+
+        <p>¿Cuántos pasteles deseas ordenar?</p>
+            <input type="number" id="Cantidad de pasteles" name="Cantidad de pasteles" placeholder="Selecciona">
+        <br>
+
+        <p>Selecciona el pastel base</p>
+        <select name="Pastel" id="Pastel">
+            <option value="Tres leches vainilla">Tres leches vainilla</option>
+            <option value="Tres leches chocolate">Tres leches chocolate</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Red velvet">Red velvet</option>
+            <option value="Marmoleado">Marmoleado</option>
+
+            <option value="Tres leches vainilla/Tres leches chocolate">Tres leches vainilla/Tres leches chocolate</option>
+            <option value="Chocolate/Red velvet">Chocolate/Red velvet</option>
+            <option value="Chocolate/Marmoleado">Chocolate/Marmoleado</option>
+            <option value="Red velvet/Marmoleado">Red velvet/Marmoleado</option><br>
+        </select>
+        
+        <p>Selecciona las decoraciones (c/u 30gr)</p>
+        <input type="checkbox" id="Escamas de chocolate amargo" name="Escamas de chocolate amargo">
+        <label for="Escamas de chocolate amargo">Escamas de chocolate amargo</label><br>
+        
+        <input type="checkbox" id="Escamas de chocolate blanco" name="Escamas de chocolate blanco">
+        <label for="Escamas de chocolate blanco">Escamas de chocolate blanco</label><br>
+        
+        <input type="checkbox" id="Escamas de chocolate con leche" name="Escamas de chocolate con leche">
+        <label for="Escamas de chocolate con leche">Escamas de chocolate con leche</label><br>
+        
+        <input type="checkbox" id="Chispas de chocolate" name="Chispas de chocolate">
+        <label for="Chispas de chocolate">Chispas de chocolate</label><br>
+        
+        <input type="checkbox" id="Chispas de colores" name="Chispas de colores">
+        <label for="Chispas de colores">Chispas de colores</label><br>
+        
+        <input type="checkbox" id="m&m's" name="m&m's">
+        <label for="m&m's">m&m's</label><br>
+        
+        <input type="checkbox" id="Snickers." name="Snickers.">
+        <label for="Snickers.">Snickers.</label><br>
+        
+        <input type="checkbox" id="Ferrero" name="Ferrero">
+        <label for="Ferrero">Ferrero</label><br>
+        
+        <p>Selecciona el relleno frutal</p>
+        <input type="radio" id="Fresa" name="Fresaoduraznoosinfruta" placeholder="Fresa">
+        <label for="Fresa">Fresa</label><br>
+        
+        <input type="radio" id="Durazno" name="Fresaoduraznoosinfruta" placeholder="Durazno">
+        <label for="Durazno">Durazno</label><br>
+
+        <input type="radio" id="Sin fruta" name="Fresaoduraznoosinfruta" placeholder="Sin fruta">
+        <label for="Durazno">Sin fruta</label><br>
+
+        <p>Selecciona el fruto seco</p>
+        <input type="radio" id="Nuez" name="Nuezoalmendraosinfrutoseco" placeholder="Nuez">
+        <label for="Fresa">Nuez</label><br>
+        
+        <input type="radio" id="Almendra" name="Nuezoalmendraosinfrutoseco" placeholder="almendra">
+        <label for="Almendra">Almendra</label><br>
+
+        <input type="radio" id="Sin fruto seco" name="Nuezoalmendraosinfrutoseco" placeholder="Sin fruto seco">
+        <label for="Almendra">Sin fruto seco</label><br>
+    </form>
+<br>
+    <label for="Comentarios">Comentarios</label>
+        <input type="text" id="Comentarios" name="Comentarios" placeholder="Descripción general"><br>
+<br>
+    <input type="button" value="Realizar pago">
+<br>
+    <img src="file:///C:/Users/BMXDOI006917/Desktop/CARO/Innovacci%C3%B3n/FrontEnd/HTML/Amelieland%20pasteler%C3%ADa%20foot.webp" alt="logo Amelieland" width="600px">
+</body>
+</html>
